@@ -9,7 +9,7 @@ export default function PokedexNavigation() {
   return (
     <Stack.Navigator>
       <Stack.Screen name="PokedexScreen" component={Pokedex} />
-      <Stack.Screen name="PokemonScreen" component={Pokemon} />
+      {/* <Stack.Screen name="PokemonScreen" component={Pokemon} /> */}
     </Stack.Navigator>
   );
 }
